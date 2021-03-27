@@ -20,6 +20,10 @@
  *
  * @var $templates
  */
+
+\Bitrix\Main\UI\Extension::load("ui.buttons");
+\Bitrix\Main\UI\Extension::load("ui.buttons.icons");
+
 ?>
 <div class="sp-x-editor<?= $uniqId ?>">
     <div class="sp-x-editor-lt"></div>
